@@ -1,0 +1,247 @@
+:root {
+  --main-color-text: #212121;
+  --secondary-color: #757575;
+  --white-color: #fff;
+  --secondary-white: rgba(255, 255, 255, 0.6);
+  --button-color: #f5f4fa;
+  --acent-color: #2196f3;
+  --header-footer-color: #2f303a;
+  --black-color: #000;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: var(--white-color);
+  color: var(--main-color-text);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.page-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2.18;
+  color: var(--acent-color);
+}
+
+.page-logo-part {
+  color: var(--black-color);
+}
+
+.page-logo,
+.page-logo-part {
+  font-family: "Raleway";
+}
+
+.adress-company:hover,
+.adress-company:focus,
+.mailto:hover,
+.mailto:focus,
+.link-acent,
+.link-email:focus,
+.link-email:hover,
+.link-number:focus,
+.link-number:hover,
+.page-logo:focus,
+.page-logo:hover,
+.page-logo-part:hover,
+.page-logo-part:focus,
+.page-logo-part-footer:hover,
+.page-logo-part-footer:focus,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--acent-color);
+}
+
+.page-logo,
+.link-acent,
+.link,
+.link-email,
+.link-number,
+.mailto,
+.tel,
+.adress-company,
+.portfolio-link {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  color: var(--main-color-text);
+}
+
+.link,
+.link-acent,
+.link-email,
+.link-number {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.link-number,
+.link-email {
+  color: var(--secondary-color);
+}
+
+.site-nav .link-acent:hover,
+.site-nav .link-acent:focus,
+.auth-nav-list,
+.auth-nav-list {
+  color: var(--black-color);
+}
+
+.hero {
+  background-color: var(--header-footer-color);
+  height: 600px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-align: center;
+  line-height: 4.28;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.14;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.features-text {
+  color: var(--secondary-color);
+  line-height: 1.71;
+}
+
+.features-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--acent-color);
+  color: var(--white-color);
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title {
+  color: var(--main-color-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 3.01;
+}
+
+.main-team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+}
+.main-team-list-text {
+  font-size: 16px;
+  line-height: 1.33;
+  color: var(--secondary-color);
+}
+
+.page-logo-part-footer {
+  font-family: "Raleway";
+  color: var(--white-color);
+}
+
+.footer-section {
+  background-color: var(--header-footer-color);
+}
+
+.adress-company,
+.mailto,
+.tel {
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.adress-company {
+  color: var(--white-color);
+}
+
+.mailto,
+.tel {
+  color: var(--secondary-white);
+}
+
+.button-sites {
+  width: 128px;
+  left: 576px;
+}
+
+.button-adds {
+  width: 145px;
+  left: 712px;
+}
+
+.button-design {
+  width: 103px;
+  left: 865px;
+}
+
+.button-marketing {
+  width: 130px;
+  left: 976px;
+}
+
+.section-button,
+.button-sites,
+.button-adds,
+.button-design,
+.button-marketing {
+  background: var(--button-color);
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--main-color-text);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.portfolio-items {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.57;
+  letter-spacing: 0.06em;
+  color: var(--main-color-text);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 2.14;
+  color: var(--secondary-color);
+}
+
+.section-button:focus,
+.section-button:hover,
+.button-sites:focus,
+.button-adds:focus,
+.button-design:focus,
+.button-marketing:focus,
+.button-sites:hover,
+.button-adds:hover,
+.button-design:hover,
+.button-marketing:hover {
+  background-color: var(--acent-color);
+  color: var(--button-color);
+}
