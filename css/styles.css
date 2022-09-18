@@ -152,7 +152,7 @@ ul {
   text-align: center;
 }
 
-.hero-title {
+.hero-title{
   font-weight: 900;
   font-size: 44px;
   letter-spacing: 0.06em;
@@ -161,6 +161,10 @@ ul {
   line-height: 2.14;
   margin: 0;
   padding-top: 200px;
+}
+
+.hero-title-transform{
+  display: block;
 }
 
 .hero-button {
