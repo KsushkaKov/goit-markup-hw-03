@@ -51,7 +51,7 @@ body {
 .page-logo-part {
   font-family: "Raleway";
 }
-.main-header{
+.main-header {
   border: 1px var(--horizontal-line);
   border-style: hidden hidden solid hidden;
 }
@@ -59,7 +59,6 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-
 }
 
 .site-nav {
@@ -228,8 +227,7 @@ ul {
 }
 
 .main-photo-list {
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
 }
 
 .main-team-list {
@@ -238,6 +236,10 @@ ul {
 .main-team-list .item {
   flex-direction: column;
   align-items: center;
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .main-team-list-title {
@@ -330,20 +332,22 @@ ul {
   flex-wrap: wrap;
 }
 
-.section-portfolio .item:nth-child(3n){
+.section-portfolio .item:nth-child(3n) {
   margin-right: 0;
 }
 
-.section-portfolio .item:nth-last-child(-n+3){
+.section-portfolio .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-.section-portfolio .item{
+.section-portfolio .item {
   margin-bottom: 30px;
   margin-right: 30px;
+  border: 1px var(--link-border);
+  border-style: hidden solid solid solid;
 }
 
-.portfolio-list{
+.portfolio-list {
   margin: 20px 24px;
 }
 
@@ -376,14 +380,16 @@ ul {
 .button-marketing:hover {
   background-color: var(--acent-color);
   color: var(--button-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.section-buttons{
+.section-buttons {
   margin-bottom: 34px;
   display: flex;
   justify-content: center;
 }
 
-.section-buttons .item:not(:last-child){
+.section-buttons .item:not(:last-child) {
   margin-right: 8px;
 }
